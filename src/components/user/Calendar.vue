@@ -14,6 +14,14 @@
                         />
                     </div>
                 </div>
+
+                <router-link to="#">
+                    <div class="mb-3 text-center">
+                        <button type="button" class="w-50 btn btn-lg btn-danger rounded-2 mb-3 mt-4">
+                            <a href="#" class="text-white text-decoration-none">Next</a>
+                        </button>
+                    </div>
+                </router-link>
             </div>
             
         </div>

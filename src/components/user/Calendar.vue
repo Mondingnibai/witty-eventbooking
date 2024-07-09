@@ -4,7 +4,7 @@
         <div class="row mt-4">
             <div class="mx-auto w-80">
                 <div class="text-center">
-                    <h5 class="fw-light text-secondary">Select a day of the Week</h5>
+                    <h5 class="fw-light text-secondary">Select Preferred Schedule in the Calendar.</h5>
                 </div>
                 <div id="row mb-4">
                     <div class="col-md-12 col-sm-12 is-light-mode d-flex align-items-start">

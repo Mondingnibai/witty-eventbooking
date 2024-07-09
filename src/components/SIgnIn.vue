@@ -1,6 +1,7 @@
 <template>
-   <div class="d-flex align-items-center justify-content-center">
-        <form name="login_form" class="border rounded-3  bg-white col-md-3">
+   <div class="row  justify-content-center">
+        <div class="col col-md-6 col-sm-12 col-lg-6">
+            <form name="login_form" class="border rounded-3 bg-white">
             <div class="d-grid mt-3 align-items-center justify-content-center">
                 <p class=" fs-6 text-secondary fw-light">Sign In</p>
             </div>
@@ -26,6 +27,7 @@
                 <p class="text-secondary fw-light">Don&apos;t have an account? <router-link to="/sign-up">Sign Up</router-link></p>
             </div>
 
-        </form>
+            </form> 
+        </div>
     </div>
 </template>

@@ -26,7 +26,7 @@
                 </div>
 
                 <router-link to="/" class="text-white text-decoration-none mb-3">
-                    <button class="w-100 btn btn-lg btn-primary rounded-2 mb-3" type="submit">Create Account</button>
+                    <button class="w-100 btn btn-lg btn-danger rounded-2 mb-3" type="submit">Create Account</button>
                 </router-link>
                 
                 <div class="row form-control-sm text-center">

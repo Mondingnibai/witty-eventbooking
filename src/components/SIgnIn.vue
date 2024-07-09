@@ -16,7 +16,7 @@
                 </div>
 
                 <router-link to="/dashboard" class="text-white text-decoration-none">
-                    <button class="w-100 btn btn-lg btn-primary rounded-2 mb-3" type="submit">Sign in</button>
+                    <button class="w-100 btn btn-lg btn-danger rounded-2 mb-3" type="submit">Sign in</button>
                 </router-link>
 
                 <div class="form-control-sm text-center">

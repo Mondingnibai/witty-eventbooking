@@ -1,30 +1,30 @@
 <template>
-   <div class="d-flex align-items-center justify-content-center vh-100">
-        <div class="row bg-white border rounded-3">
-            <div class="d-grip gap-2 bg-primary">
-                <p class="d-flex align-items-start fs-5 mb-0 text-white mt-2">Hi Test!</p>
-                <p class="d-flex align-items-start fs-6 text-decoration-underline text-white">test@gmail.com</p>
-            </div>
-            <hr class="border border-secondary"/>
-
-           <div class="form-control-sm text-center">
-                <p class="text-secondary fw-light">You have no on going lesson booking yet!</p>
-            </div>
-
-            <router-link to="/subscription">
-                <div class="d-grid gap-3 mb-3">
-                    <button type="button" class="btn btn-primary btn-sm m-2 p-2 fw-light rounded-3">
-                        <a href="/subscription" class="text-white text-decoration-none">Book Now</a>
-                    </button>
+    <div class="container-fluid">
+        <UserHeader/>
+        <div class="row">
+            <div class="align-item-center justify-content-center">
+                <div class="text-center">
+                    <p class="text-secondary fw-light mt-4 mb-4">You have no on going lesson booking yet!</p>
                 </div>
-            </router-link>
+
+                <router-link to="/subscription">
+                    <div class="mb-3 text-center">
+                        <button type="button" class="w-50 btn btn-lg btn-danger rounded-2 mb-3">
+                            <a href="/subscription" class="text-white text-decoration-none">Book Now</a>
+                        </button>
+                    </div>
+                </router-link>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+import UserHeader from '../includes/UserHeader.vue'
+
 export default {
-  name: 'UserDashboard',
-  // ...
+    components: {
+        UserHeader,
+    },
 }
 </script>

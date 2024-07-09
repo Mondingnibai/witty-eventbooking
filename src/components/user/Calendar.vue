@@ -7,7 +7,7 @@
                     <h5 class="fw-light text-secondary">Select a day of the Week</h5>
                 </div>
                 <div id="row mb-4">
-                    <div class="col-md-12 is-light-mode d-flex align-items-start" style="max-height: 400px;overflow-y:scroll">
+                    <div class="col-md-12 col-sm-12 is-light-mode d-flex align-items-start">
                         <Qalendar 
                         :events="events"
                         :config="config"

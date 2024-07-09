@@ -20,7 +20,7 @@
                 </router-link>
 
                 <div class="form-control-sm text-center">
-                    <p class="text-secondary fw-light">Don&apos;t have an account? <router-link to="/sign-up">Create now!</router-link></p>
+                    <p class="text-secondary fw-light">Don&apos;t have an account? <router-link to="/sign-up">Create now</router-link></p>
                 </div>
             </form>
         </div>

@@ -10,7 +10,7 @@
                     <input type="email" class="form-control" id="floatingInput" placeholder="Username">
                     <label for="floatingInput">Username</label>
                 </div>
-                <div class="form-floating mb-3">
+                <div class="form-floating mb-2">
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
                     <label for="floatingPassword">Password</label>
                 </div>
@@ -20,7 +20,7 @@
                     <label for="floatingInput">First Name</label>
                 </div>
 
-                <div class="form-floating mb-2">
+                <div class="form-floating mb-3">
                     <input type="lastname" class="form-control" id="floatingInput" placeholder="Last Name">
                     <label for="floatingInput">Last Name</label>
                 </div>

@@ -1,22 +1,18 @@
 <template>
-    <div class="d-flex align-items-center justify-content-center vh-100">
-        <div class="row bg-white border rounded-3">
-            <div class="d-grip gap-2 bg-primary">
-                <p class="d-flex align-items-start fs-5 mb-0 text-white mt-2">Hi Test!</p>
-                <p class="d-flex align-items-start fs-6 text-decoration-underline text-white">test@gmail.com</p>
-            </div>
-            <hr class="border border-secondary"/>
-
-            <div class="d-grip gap-2 mb-3">
-                <p class="d-flex align-items-start fs-5 mb-0 text-secondary fw-light mt-2">Select a day of the Week</p>
-            </div>
-
-            <div id="row mb-4">
-                <div class="col-md-12 is-light-mode d-flex align-items-start" style="max-height: 400px; overflow-y:scroll">
-                    <Qalendar 
-                    :events="events"
-                    :config="config"
-                    />
+    <div class="container-fluid">
+        <UserHeader />
+        <div class="row mt-4">
+            <div class="mx-auto w-80">
+                <div class="text-center">
+                    <h5 class="fw-light text-secondary">Select a day of the Week</h5>
+                </div>
+                <div id="row mb-4">
+                    <div class="col-md-12 is-light-mode d-flex align-items-start" style="max-height: 400px;overflow-y:scroll">
+                        <Qalendar 
+                        :events="events"
+                        :config="config"
+                        />
+                    </div>
                 </div>
             </div>
             
@@ -27,10 +23,12 @@
 
 <script>
 import { Qalendar } from "qalendar";
+import UserHeader from '../includes/UserHeader.vue';
 
 export default {
     components: {
         Qalendar,
+        UserHeader
     },
 
     data() {

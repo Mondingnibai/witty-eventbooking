@@ -1,12 +1,48 @@
 <template>
-    <div class="d-flex align-items-center justify-content-center vh-100">
+    <div class="d-flex align-item-center justify-content-center vh-100">
+        <div class="form-signin">
+            <form class="text-center">
+
+                <img class="mb-4" src="../../src/assets/login-icon.png" alt="" width="72" height="72">
+                <h1 class="h3 mb-3 fw-normal text-center">Create Account</h1>
+
+                <div class="form-floating mb-2">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Username">
+                    <label for="floatingInput">Username</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword">Password</label>
+                </div>
+
+                <div class="form-floating mb-2">
+                    <input type="firstname" class="form-control" id="floatingInput" placeholder="First Name">
+                    <label for="floatingInput">First Name</label>
+                </div>
+
+                <div class="form-floating mb-2">
+                    <input type="lastname" class="form-control" id="floatingInput" placeholder="Last Name">
+                    <label for="floatingInput">Last Name</label>
+                </div>
+
+                <router-link to="/" class="text-white text-decoration-none">
+                    <button class="w-100 btn btn-lg btn-primary rounded-2" type="submit">Create Account</button>
+                </router-link>
+                
+                <div class="row form-control-sm text-center">
+                    <p class="text-secondary fw-light">Already have an account? <a href="/">Sign In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- <div class="d-flex align-items-center justify-content-center vh-100">
         <form name="login_form" class="border rounded-3 col-md-6 p-3 bg-white">
             <div class="d-grid mt-3 align-items-center justify-content-center">
                 <p class="fs-6 text-secondary fw-light">Sign Up</p>
             </div>
 
             <div class="row">
-                <!-- name inputs -->
+                
                 <label for="labelInput" class="form-label fw-light fs-6">Name</label>
                 <div class="col-md-6">
                     <input type="text" class="form-control"/>
@@ -16,12 +52,12 @@
                     <input type="text" class="form-control"/>
                     <small class="fs-6 text-secondary fw-light">Last Name</small>
                 </div>
-                <!-- end of name inputs -->
+                
             </div>
 
 
             <div class="row">
-                <!-- sign in credentials -->
+                
                 <label for="labelInput" class="form-label fw-light fs-6">Account Credentials</label>
                 <div class="col-md-6 mb-3">
                     <input type="email" class="form-control"/>
@@ -45,5 +81,5 @@
                 <p class="text-secondary fw-light">Already have an account? <a href="/">Sign In</a></p>
             </div>
         </form>
-    </div>
+    </div> -->
 </template>

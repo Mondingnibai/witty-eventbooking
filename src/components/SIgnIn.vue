@@ -15,11 +15,13 @@
                     <label for="floatingPassword">Password</label>
                 </div>
 
-                <div class="form-control-sm text-center">
-                    <p class="text-secondary fw-light">Don&apos;t have an account? <router-link to="/sign-up">Sign Up</router-link></p>
-                </div>
+                <router-link to="/dashboard" class="text-white text-decoration-none">
+                    <button class="w-100 btn btn-lg btn-primary rounded-2" type="submit">Sign in</button>
+                </router-link>
 
-                <button class="w-100 btn btn-lg btn-primary rounded-2" type="submit">Sign in</button>
+                <div class="form-control-sm text-center">
+                    <p class="text-secondary fw-light">Don&apos;t have an account? <router-link to="/sign-up">Create now!</router-link></p>
+                </div>
             </form>
         </div>
     </div>

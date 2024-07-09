@@ -64,7 +64,3 @@ export default {
     },
 }
 </script>
-
-<style>
-    @import "../../../node_modules/qalendar/dist/style.css"
-</style>

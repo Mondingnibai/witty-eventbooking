@@ -1,5 +1,5 @@
 <template>
-   <div class="d-flex align-items-center justify-content-center vh-100">
+   <div class="d-flex align-items-center justify-content-center">
         <form name="login_form" class="border rounded-3  bg-white col-md-3">
             <div class="d-grid mt-3 align-items-center justify-content-center">
                 <p class=" fs-6 text-secondary fw-light">Sign In</p>

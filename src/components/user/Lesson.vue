@@ -10,7 +10,7 @@
                     <div class="row mb-3">
                         <div class="col-md-12 col-sm-12">
                             <label for="lblLocation" class="d-flex align-items-start text-secondary fw-light mb-2 form-label">Location</label>
-                            <select class="form-select" aria-label="lblLocation">
+                            <select class="form-select form-control" aria-label="lblLocation">
                                 <option selected>Select Location</option>
                                 <option value="1">Location 1</option>
                                 <option value="2">Location 2</option>
@@ -21,7 +21,7 @@
                     <div class="row mb-3">
                         <div class="col-md-12">
                             <label for="lbllessontype" class="d-flex align-items-start  text-secondary fw-light mb-2 form-label">Lesson Type</label>
-                            <select class="form-select" aria-label="lblessontype">
+                            <select class="form-select form-control" aria-label="lblessontype">
                                 <option selected>Lesson Type</option>
                                 <option value="1">Voice</option>
                                 <option value="2">Guitar</option>
@@ -32,7 +32,7 @@
                     <div class="row mb-3">
                         <div class="col-md-12">
                             <label for="lblteacher" class="d-flex align-items-start  text-secondary fw-light mb-2 form-label">Teacher</label>
-                            <select class="form-select" aria-label="lblteacher">
+                            <select class="form-select form-control" aria-label="lblteacher">
                                 <option selected>Teacher</option>
                                 <option value="1">Katrina Smith</option>
                                 <option value="2">John Doe</option>
@@ -43,7 +43,7 @@
                     <div class="row mb-3">
                         <div class="col-md-12">
                             <label for="lblteacher" class="d-flex align-items-start  text-secondary fw-light mb-2 form-label">Length or Session / Minutes </label>
-                            <select class="form-select" aria-label="lblteacher">
+                            <select class="form-select form-control" aria-label="lblteacher">
                                 <option selected>00:00</option>
                                 <option value="1">00:15</option>
                                 <option value="2">00:30</option>

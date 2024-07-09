@@ -15,7 +15,7 @@
                             <p class="mb-2 text-secondary fw-light mt-2"><small>This is a test description..</small></p>
 
                             <router-link to="/lesson" class="text-white text-decoration-none">
-                                <button type="button" class="btn btn-danger fw-light mt-1 text-white">
+                                <button type="button" class="btn btn-lg btn-danger fw-light mt-1 text-white">
                                     Subscribe
                                 </button>
                             </router-link>
@@ -33,7 +33,7 @@
                             <p class="mb-2 text-secondary fw-light mt-2"><small>This is a test description..</small></p>
 
                             <router-link to="/lesson" class="text-white text-decoration-none">
-                                <button type="button" class="btn btn-danger fw-light mt-1 text-white">
+                                <button type="button" class="btn btn-lg btn-danger fw-light mt-1 text-white">
                                     Subscribe
                                 </button>
                             </router-link>
@@ -51,7 +51,7 @@
                             <p class="mb-2 text-secondary fw-light mt-2"><small>This is a test description..</small></p>
 
                             <router-link to="/lesson">
-                                <button type="button" class="btn btn-danger fw-light mt-1 text-white">
+                                <button type="button" class="btn btn-lg btn-danger fw-light mt-1 text-white">
                                     Subscribe
                                 </button>
                             </router-link>

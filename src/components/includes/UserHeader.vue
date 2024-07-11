@@ -9,10 +9,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/dashboard">Dashboard</a>
+                            <a class="nav-link active" aria-current="page" href="/dashboard">
+                                <i class="bi-house fs-5"></i><span class="ms-1 d-sm-inline">Dashboard</span>
+                            </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/">Logout</a>
+                            <a class="nav-link" aria-current="page" href="/">
+                                <i class="bi-box-arrow-left fs-5"></i><span class="ms-1 d-sm-inline">Sign Out</span>
+                            </a>
                         </li>
                     </ul>
                 </div>

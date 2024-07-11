@@ -22,35 +22,29 @@ import Vue3Datatable from "@bhplugin/vue3-datatable";
 import "@bhplugin/vue3-datatable/dist/style.css";
 import AdminNavbar from '../includes/AdminSidebar.vue'
 
+
 const cols =
     ref([
       { field: "id", title: "ID", width: "90px", filter: false },
-      { field: "firstname", title: "First Name" },
-      { field: "phone", title: "Phone" },
-      { field: "email", title: "Email" },
-      { field: "userid", title: "User ID" },
-      { field: "password", title: "Password" },
-      { field: "schedule", title: "Actions" },
+      { field: "session", title: "Sessions" },
     ]) || [];
 
   const rows = ref([
     {
       id: 1,
-      firstname: "Katrina",
-      lastname:"Kumprane",
-      userid: "Bret",
-      email: "leannegraham@hq.witty.team",
-      phone: "11111111",
-      password: "***********",
+      session: "00:00",
     },
     {
       id: 2,
-      firstname: "John",
-      lastname:"Doe",
-      userid: "John",
-      email: "johndoe@hq.witty.team",
-      phone: "11111111",
-      password: "***********",
+      session: "00:15",
+    },
+    {
+      id: 3,
+      session: "00:30",
+    },
+    {
+      id: 4,
+      session: "00:45",
     },
   ])
 

@@ -7,18 +7,18 @@
             <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
                 <li class="nav-item">
                     <router-link to="/admin/teachers" class="nav-link py-3 px-2" title="Teacher" data-bs-toggle="Teacher" data-bs-placement="right" data-bs-original-title="Teacher">
-                        <i class="bi-people fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Teachers</span>
+                        <i class="bi-person fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Teachers</span>
                     </router-link>
                 </li>
                 <li>
                     <router-link to="/admin/students" class="nav-link py-3 px-2" title="Students" data-bs-toggle="Students" data-bs-placement="right" data-bs-original-title="Students">
-                        <i class="bi-people fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Students</span>
+                        <i class="bi-person-circle fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Students</span>
                     </router-link>
                 </li>
                 <li>
                     <div class="dropdown">
                         <a href="#" class="text-white d-flex align-items-center justify-content-center p-3 link-dark text-decoration-none dropdown-toggle" id="dropdownUser3" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="bi-box fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Others</span>
+                            <i class="bi-exclude fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Others</span>
                         </a>    
                         <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser3">
                             <li>
@@ -41,7 +41,7 @@
                 </li>
                 <li>
                     <router-link to="/admin/lesson-booked" class="nav-link py-3 px-2" title="Lesson Booked" data-bs-toggle="Lesson Booked" data-bs-placement="right" data-bs-original-title="Lesson Booked">
-                        <i class="bi-book fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Booked</span>
+                        <i class="bi-bar-chart-fill fs-4 text-white"></i><span class="ms-1 d-none d-sm-inline text-white">Booked</span>
                     </router-link>
                 </li>
                 <li>

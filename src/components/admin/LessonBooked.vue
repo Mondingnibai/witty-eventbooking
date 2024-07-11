@@ -15,7 +15,7 @@
                             <div class="font-semibold"><i class="bi-person-circle fs-4 p-2"></i>{{ data.value.student_firstname + ' ' + data.value.student_lastname }}</div>
                         </template>
                         <template #teacher_firstname="data">
-                            <div class="font-semibold"><i class="bi-person-circle fs-4 p-2"></i>{{ data.value.teacher_firstname + ' ' + data.value.teacher_firstname }}</div>
+                            <div class="font-semibold"><i class="bi-person fs-4 p-2"></i>{{ data.value.teacher_firstname + ' ' + data.value.teacher_firstname }}</div>
                         </template>
                     </vue3-datatable>
                 </div>

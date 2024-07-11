@@ -16,7 +16,7 @@
                         </template>
                         <template #firstname="data">
                             <div class="flex items-center gap-2">
-                                <div class="font-semibold"><i class="bi-person-circle fs-4 p-2"></i>{{ data.value.firstname + ' ' + data.value.lastname }}</div>
+                                <div class="font-semibold"><i class="bi-person fs-4 p-2"></i>{{ data.value.firstname + ' ' + data.value.lastname }}</div>
                             </div>
                         </template>
                         <template #phone="data">

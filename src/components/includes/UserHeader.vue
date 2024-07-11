@@ -10,7 +10,7 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="/dashboard">
-                                <i class="bi-house fs-5"></i><span class="ms-1 d-sm-inline">Dashboard</span>
+                                <i class="bi-house fs-5"></i><span class="ms-1 d-sm-inline">Home</span>
                             </a>
                         </li>
                         <li class="nav-item">

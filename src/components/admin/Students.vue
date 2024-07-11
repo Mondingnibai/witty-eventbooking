@@ -5,7 +5,7 @@
             <div class="col-sm p-3 min-vh-100">
                 <!-- content -->
                 <div>
-                    <div class="flex items-center justify-between mb-4 mt-4">
+                    <div class="flex items-center justify-between mb-4 mt-2">
                         <h2 class="text-3xl">Student List</h2>
                     </div>
 

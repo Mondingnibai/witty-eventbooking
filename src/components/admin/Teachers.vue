@@ -5,7 +5,7 @@
             <div class="col-sm p-3 min-vh-100">
                 <!-- content -->
                 <div>
-                    <div class="flex items-center justify-between mb-4 mt-4">
+                    <div class="flex items-center justify-between mb-4 mt-2">
                         <h2 class="text-3xl">Teacher List</h2>
                     </div>
 
@@ -31,6 +31,9 @@
                         <template #password="data">
                             <strong class="text-secondary">{{ data.value.password }}</strong>
                         </template>
+                        <template #schedule="data">
+                            <strong class="text-info"><i class="bi-plus-square fs-6"></i>{{ data.value.schedule }} Schedule</strong>
+                        </template>
                     </vue3-datatable>
                 </div>
             </div>
@@ -52,6 +55,7 @@ const cols =
       { field: "email", title: "Email" },
       { field: "userid", title: "User ID" },
       { field: "password", title: "Password" },
+      { field: "schedule", title: "Actions" },
     ]) || [];
 
   const rows = ref([

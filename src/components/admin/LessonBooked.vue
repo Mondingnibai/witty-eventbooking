@@ -9,6 +9,13 @@
                         <h2 class="text-3xl">Lesson Booked</h2>
                     </div>
 
+                    <div class="d-flex mt-2 mb-4 p-2">
+                      <div class="col-md-6">
+                        <button class="btn btn-primary btn-sm"><i class="bi-person-fill-add fs-4 p-2"></i>Add New</button>
+                      </div>
+                      <div class="col-md-6 text-secondary fs-6 text-danger">Note: On going, checking hwo to apply filters in vue3 datatable</div>
+                    </div>
+
                     <!-- vue datatable -->
                     <vue3-datatable :rows="rows" :columns="cols">
                         <template #student_firstname="data">
